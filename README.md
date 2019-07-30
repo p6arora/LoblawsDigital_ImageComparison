@@ -83,6 +83,10 @@ def read_data():
 
 Ensure that the CSV file has the absolute path for each image you wish to compare
 
+The result CSV file will appear in the same drive as the img.py file
+
+![alt text](https://imgur.com/wSkM8yr "All files appear in same folder as Python file")
+
 ## Tests
 
 ## Author
