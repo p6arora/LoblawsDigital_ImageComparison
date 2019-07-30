@@ -1,4 +1,4 @@
-# Loblaws Digital - Developer Take Home Assignment - Comparing 2 Images
+# Loblaws Digital - Developer Take Home Assignment - Ranking Images Based on Similarity
 
 ## Table of Contents
 
@@ -88,6 +88,23 @@ The result CSV file will appear in the same drive as the img.py file
 ![](misc/images/loblaws_digital_pic_usage.JPG)
 
 ## Tests
+
+As per the assignment, the tool would be able to read a CSV file with the format:
+
+| Image1        | Image2           | 
+| ------------- |:----------------:| 
+
+The output file would have to have a format of:
+
+| Image1        | Image2   | Similarity | Time Elapsed |
+| ------------- |:--------:| :--------: | :------------|
+
+
+In order to verify this tool was working as intended, I created a sample CSV file with modified images of the golden gate bridge. The file called ```input_test_data.csv``` appears as follows:
+
+
+
+The ```input_test_data.csv``` and ```result_data.csv``` are included in the repository can be used as a template
 
 ## Author
 
