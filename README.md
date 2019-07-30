@@ -46,6 +46,24 @@ import time
 
 ## Usage
 
+This tool can be accessed by cloning or downloading as a ZIP file to your workstation. In order to start using the tool with your own CSV file, simply remove the "input_test_data.csv" under the ```read_data()``` function with your own CSV file. For your convienience, the code snippet is shown below:
+
+```python
+#read from CSV file
+def read_data():
+    print("starting to read data")
+    with open('input_test_data.csv') as input_data:
+        print("opened data file")
+        global line_count
+        csv_reader = csv.reader(input_data, delimiter=',')
+        set_of_images=[row for idx, row in enumerate(csv_reader) if idx == line_count]
+        print(set_of_images)
+        original_image = set_of_images[0][0]
+        image_to_compare = set_of_images[0][1]
+        line_count += 1
+        return [original_image, image_to_compare]
+```
+
 ## Tests
 
 ## Author
