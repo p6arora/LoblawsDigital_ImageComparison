@@ -25,6 +25,10 @@ The justifications for my design and alternative design are explored in the Desi
 
 ## Setup
 
+Python is required for this tool, and Real Python's blog post is a great tool to setup your environment on MacOS or Windows:
+
+[Python Setup](https://realpython.com/installing-python/)
+
 At the time of the assignment, I was using Python 3.7 and the newest OpenCV version was 4.1.0.25. **However**, in order to use the SIFT Algorithm, 2 older versions of the OpenCV libraries were needed. These can be installed using pip:
 
 ```bash
@@ -39,8 +43,6 @@ import csv
 import time
 
 ```
-
-
 
 ## Usage
 
