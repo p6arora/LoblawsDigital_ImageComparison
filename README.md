@@ -31,11 +31,11 @@ In order to understand the decision making, let's review requirements:
 
 Based on my research, Java, C++, Python and MATLAB were the best options for image processing. These also are all cross compatable through Java running on the JVM, C++ compiler being natively available in UNIX and through Cygwin on Windows, as well as MATLAB being used extensively in academic work. Python also is an excellent choice for it's cross platform support and ease of use
 
-![Free To Use]()
+![Free To Use](misc/images/FreeToUse_design.jpg)
 
 All languages except MATLAB are free to use and can be used for this purpose
 
-![Community Supprt]()
+![Community Supprt](misc/images/community_support_design.jpg)
 
 In the case of large online communities able to ask questions and provide support, C++ and Python are very well known for their OpenCV library and have a large amount of help
 
@@ -43,13 +43,13 @@ Between these two languages, Python was deemed the easiest to setup for cros-com
 
 In terms of different avenues on how to solve the problems, there were Content Based Image Retrievel Systems which rank similarity based on Euclidean distance, Manhatten distance, and Histogram Intersection distance. However, based on my expereince, evaluating similarity based on the respective color bins isn't the most acurate as many pictures can have the same RGB values but the organization would be much different. This doesn't make them similar. For example, these 2 images have similar RGB values but different organization 
 
-![static]()
+![static](misc/images/static.jpg)
 
-![sunset]()
+![sunset](misc/images/sunset.jpg)
 
 I feel using a feature tracking algorithm such as SIFT, ORB, BRISK, etc would provide the most acurate results. It would be able to detect the portion of the image that match similar identifiers in images. Based on my trial and research, SIFT produced acurate results while not being too much of a drag on performance
 
-![SIFT]()
+![SIFT](misc/images/SIFT.jpg)
 
 ## Implementation
 
