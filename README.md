@@ -25,15 +25,47 @@ In order to understand the decision making, let's review requirements:
 
 * Bjorn would like to run the program on his windows and MacOS machine - needs *cross comparability*
 * Jeanie needs the program to be cost effective - should probably use a *free to use language/framework*
-* Ferris will be maintaning the application - needs to be*large amounts of community support* if problems arise
+* Ferris will be maintaning the application - needs to be *large amounts of community support* if problems arise
 
-![Cross Compatability]()
+![Cross Compatability](misc/images/Cross_comparability_design.jpg)
 
-Based on my research, Java, C++, Python and MATLAB were the best options for image processing. These also are all cross compatable through Java running on the JVM, C++ compiler having certain cross-compatability, as well as MATLAB
+Based on my research, Java, C++, Python and MATLAB were the best options for image processing. These also are all cross compatable through Java running on the JVM, C++ compiler being natively available in UNIX and through Cygwin on Windows, as well as MATLAB being used extensively in academic work. Python also is an excellent choice for it's cross platform support and ease of use
 
+![Free To Use](misc/images/FreeToUse_design.jpg)
 
+All languages except MATLAB are free to use and can be used for this purpose
+
+![Community Supprt](misc/images/community_support_design.jpg)
+
+In the case of large online communities able to ask questions and provide support, C++ and Python are very well known for their OpenCV library and have a large amount of help
+
+Between these two languages, Python was deemed the easiest to setup for cros-compatability purposes and ease of use.
+
+In terms of different avenues on how to solve the problems, there were Content Based Image Retrievel Systems which rank similarity based on Euclidean distance, Manhatten distance, and Histogram Intersection distance. However, based on my expereince, evaluating similarity based on the respective color bins isn't the most acurate as many pictures can have the same RGB values but the organization would be much different. This doesn't make them similar. For example, these 2 images have similar RGB values but different organization 
+
+![static](misc/images/static.jpg)
+
+![sunset](misc/images/sunset.jpg)
+
+I feel using a feature tracking algorithm such as SIFT, ORB, BRISK, etc would provide the most acurate results. It would be able to detect the portion of the image that match similar identifiers in images. Based on my trial and research, SIFT produced acurate results while not being too much of a drag on performance
+
+![SIFT](misc/images/SIFT.jpg)
 
 ## Implementation
+
+![Code Execution](misc/images/Code_execution.jpg)
+
+As shown above, the program starts with preparing the output CSV file, which entails creating a CSV file and placing the respective column names of image1, image2, similarity, time_elapsed
+
+This is followed by counting the number of entries in the input CSV file and then iterating through each row, extracting the location of the images and reading it into memory
+
+It does a preliminary check of the RGB values to see if they're exactly identical and in the same size and channels. If they are, it calculates time elapsed and provides a score of 0 for the two images and writies to the result file
+
+If the images don't appear to be identical, the SIFT algirthm is initialized to find edges, vertices in the image it can associate as keypoints. It then removes outliers and mismatches from the algorithm by setting a max ratio the distance where 2 points which were linked can apart. 
+
+Based on the volume of correct matches and total matches observed, a similarity ratio is created and written to the result CSV file along with time elapsed
+
+
 
 ## Setup
 
