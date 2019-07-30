@@ -108,6 +108,8 @@ The ```result_data.csv``` based on the input is this:
 
 ![](misc/images/tests_result.JPG)
 
+As not specified in the assignment, I have made the assumption the time for Time Elapsed field would be recorded in seconds
+
 The ```input_test_data.csv``` and ```result_data.csv``` are included in the repository can be used as a template
 
 ## Author
