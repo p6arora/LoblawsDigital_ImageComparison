@@ -1,5 +1,4 @@
 import cv2
-import numpy as np
 import csv
 import time
 
@@ -17,7 +16,7 @@ def read_data():
         line_count += 1
         return [original_image, image_to_compare]
 
-# wrote column titles for result CSV file
+# write column titles for result CSV file
 def write_header():
     global line_count
     with open('result_data.csv', mode='w') as result:
@@ -42,7 +41,7 @@ def read_images(original_img: str, image_to_compare: str):
     return [original_image, compared_image]
     
 
-# preliminary check of RGB values are same 
+# preliminary check if RGB values are same 
 def check_identical(original_image , compared_image , start_time: float, image_names):
     # if images are the same shape and size - could be identical
     if original_image.shape == compared_image.shape:
