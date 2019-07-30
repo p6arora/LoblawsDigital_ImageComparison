@@ -129,8 +129,7 @@ for img in range(line_count, total_images_to_compare):
 
     # determine if identical images
     if (check_identical(images[0], images[1], start_time, image_names)):
-        print("continue")
-       # continue
+        continue
        
     print("images NOT EQUAL - starting SIFT")
 
