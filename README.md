@@ -21,6 +21,18 @@ The justifications for my design and alternative design are explored in the Desi
 
 ## Design
 
+In order to understand the decision making, let's review requirements:
+
+* Bjorn would like to run the program on his windows and MacOS machine - needs *cross comparability*
+* Jeanie needs the program to be cost effective - should probably use a *free to use language/framework*
+* Ferris will be maintaning the application - needs to be*large amounts of community support* if problems arise
+
+![Cross Compatability]()
+
+Based on my research, Java, C++, Python and MATLAB were the best options for image processing. These also are all cross compatable through Java running on the JVM, C++ compiler having certain cross-compatability, as well as MATLAB
+
+
+
 ## Implementation
 
 ## Setup
@@ -34,11 +46,10 @@ At the time of the assignment, I was using Python 3.7 and the newest OpenCV vers
 ```bash
 pip3 install opencv-python==3.4.2.17 opencv-contrib-python==3.4.2.17
 ```
-In order to measure execution time, time and csv libraries were used but these are available built in to Python. Your final imports should appear as:
+In order to measure execution time and read/write from CSV files, time and csv libraries were used but these are available built in to Python. Your final imports should appear as:
 
 ```python
 import cv2
-import numpy as np
 import csv
 import time
 
@@ -46,7 +57,7 @@ import time
 
 ## Usage
 
-This tool can be accessed by cloning or downloading as a ZIP file to your workstation from, GitHub directly. In order to start using the tool with your own CSV file, simply remove the "input_test_data.csv" under the ```read_data()``` function with your own CSV file. For your convienience, the code snippet is shown below:
+This tool can be accessed by cloning or downloading as a ZIP file to your workstation from GitHub directly. In order to start using the tool with your own CSV file, simply remove the "input_test_data.csv" under the ```read_data()``` function with your own CSV file. For your convienience, the code snippet is shown below:
 
 ```python
 #read from CSV file
@@ -102,7 +113,13 @@ The output file would have to have a format of:
 
 In order to verify this tool was working as intended, I created a sample CSV file with modified images of the golden gate bridge. The file called ```input_test_data.csv``` appears as follows:
 
+![](misc/images/tests_input_data.JPG)
 
+The ```result_data.csv``` based on the input is this:
+
+![](misc/images/tests_result.JPG)
+
+As per requirement in the assignment, the similairity is ranked from 0 - 1, where 0 means it is an identical image and 1 means very different.
 
 The ```input_test_data.csv``` and ```result_data.csv``` are included in the repository can be used as a template
 
