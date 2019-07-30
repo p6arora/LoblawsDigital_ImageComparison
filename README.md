@@ -25,7 +25,7 @@ In order to understand the decision making, let's review requirements:
 
 * Bjorn would like to run the program on his windows and MacOS machine - needs *cross comparability*
 * Jeanie needs the program to be cost effective - should probably use a *free to use language/framework*
-* Ferris will be maintaning the application - needs to be*large amounts of community support* if problems arise
+* Ferris will be maintaning the application - needs to be *large amounts of community support* if problems arise
 
 ![Cross Compatability](misc/images/Cross_comparability_design.jpg)
 
