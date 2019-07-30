@@ -32,6 +32,7 @@ The justifications for my design and alternative design are explored in the Desi
 ## Author
 
 Paarth Arora
+
 Bachelors of Computer Engineering, Ryerson University
 
 
