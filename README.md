@@ -85,7 +85,7 @@ Ensure that the CSV file has the absolute path for each image you wish to compar
 
 The result CSV file will appear in the same drive as the img.py file
 
-![All files appear in same folder as Python file](https://imgur.com/wSkM8yr)
+
 
 ## Tests
 
