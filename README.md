@@ -12,7 +12,7 @@
 
 ## Introduction
 
-For this assignment, my objective was to make a tool which compared 2 images for similarity and rank them accordingly. It was an open-ended assignment and I had the option to choose whichever stack I would deem the best option. My prefered stack was:
+For this assignment, my objective was to make a tool which compared 2 images for similarity and rank them accordingly. It was an open-ended assignment and I had the option to choose whichever stack I would deem the best option. My preferred stack was:
 
 * Python
 * OpenCV
@@ -25,7 +25,7 @@ In order to understand the decision making, let's review requirements:
 
 * Bjorn would like to run the program on his windows and MacOS machine - needs *cross comparability*
 * Jeanie needs the program to be cost effective - should probably use a *free to use language/framework*
-* Ferris will be maintaning the application - needs to be *large amounts of community support* if problems arise
+* Ferris will be maintaining the application - needs to be *large amounts of community support* if problems arise
 
 ![Cross Compatability](misc/images/Cross_comparability_design.jpg)
 
@@ -37,7 +37,7 @@ All languages except MATLAB are free to use and can be used for this purpose
 
 ![Community Supprt](misc/images/community_support_design.jpg)
 
-In the case of large online communities able to ask questions and provide support, C++ and Python are very well known for their OpenCV library and have a large amount of help
+In the case of large online communities able to ask questions and provide support, C++ and Python are very well known for their OpenCV library and have a large amount of help. Java though has tools available for Image Processing, it isn't ideal and doesn't have a large user base. So C++ and Python are the languages being used
 
 Between these two languages, Python was deemed the easiest to setup for cros-compatability purposes and ease of use.
 
@@ -47,7 +47,7 @@ In terms of different avenues on how to solve the problems, there were Content B
 
 ![sunset](misc/images/sunset.jpg)
 
-I feel using a feature tracking algorithm such as SIFT, ORB, BRISK, etc would provide the most acurate results. It would be able to detect the portion of the image that match similar identifiers in images. Based on my trial and research, SIFT produced acurate results while not being too much of a drag on performance
+I feel using a feature tracking algorithm such as SIFT, ORB, BRISK, etc would provide the most accurate results. It would be able to detect the portion of the image that match similar keypoints like corners and edges. Based on my research, SIFT produced accurate results while not being too much of a drag on performance
 
 ![SIFT](misc/images/SIFT.jpg)
 
@@ -78,12 +78,13 @@ At the time of the assignment, I was using Python 3.7 and the newest OpenCV vers
 ```bash
 pip3 install opencv-python==3.4.2.17 opencv-contrib-python==3.4.2.17
 ```
-In order to measure execution time and read/write from CSV files, time and csv libraries were used but these are available built in to Python. Your final imports should appear as:
+In order to measure execution time and read/write from CSV files and write logs for debugging, time, csv, and logging libraries were used but these are available built in to Python. Your final imports should appear as:
 
 ```python
 import cv2
 import csv
 import time
+import logging
 
 ```
 
