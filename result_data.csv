@@ -1,0 +1,17 @@
+image1,image2,similarity_ratio,time_elapsed
+,,,
+D:\Programming\test\Loblaws_Digital\images\original_golden_bridge.jpg,D:\Programming\test\Loblaws_Digital\images\black_and_white.jpg,0.308852067,3.55
+D:\Programming\test\Loblaws_Digital\images\original_golden_bridge.jpg,D:\Programming\test\Loblaws_Digital\images\blue_filter.jpg,0.13136289,3.45
+D:\Programming\test\Loblaws_Digital\images\original_golden_bridge.jpg,D:\Programming\test\Loblaws_Digital\images\blurred.jpg,0.944469324,1.46
+D:\Programming\test\Loblaws_Digital\images\original_golden_bridge.jpg,D:\Programming\test\Loblaws_Digital\images\cartoonized.jpg,0.601731602,3.17
+D:\Programming\test\Loblaws_Digital\images\original_golden_bridge.jpg,D:\Programming\test\Loblaws_Digital\images\exposured.jpg,0.736229288,2.91
+D:\Programming\test\Loblaws_Digital\images\original_golden_bridge.jpg,D:\Programming\test\Loblaws_Digital\images\george-washington-bridge.jpg,1,6.25
+D:\Programming\test\Loblaws_Digital\images\original_golden_bridge.jpg,D:\Programming\test\Loblaws_Digital\images\old_photo.jpg,0.637557844,4.07
+D:\Programming\test\Loblaws_Digital\images\original_golden_bridge.jpg,D:\Programming\test\Loblaws_Digital\images\original_golden_bridge.jpg,0,0.14
+D:\Programming\test\Loblaws_Digital\images\original_golden_bridge.jpg,D:\Programming\test\Loblaws_Digital\images\duplicate.jpg,0,3.55
+D:\Programming\test\Loblaws_Digital\images\original_golden_bridge.jpg,D:\Programming\test\Loblaws_Digital\images\overlay.jpg,0.824600687,2.11
+D:\Programming\test\Loblaws_Digital\images\original_golden_bridge.jpg,D:\Programming\test\Loblaws_Digital\images\resized.jpg,0.907598149,1.2
+D:\Programming\test\Loblaws_Digital\images\original_golden_bridge.jpg,D:\Programming\test\Loblaws_Digital\images\rotated.jpg,0.150619495,3.51
+D:\Programming\test\Loblaws_Digital\images\original_golden_bridge.jpg,D:\Programming\test\Loblaws_Digital\images\sharpened.jpg,0.522316764,5.07
+D:\Programming\test\Loblaws_Digital\images\original_golden_bridge.jpg,D:\Programming\test\Loblaws_Digital\images\sunburst.jpg,0.922675026,8.92
+D:\Programming\test\Loblaws_Digital\images\original_golden_bridge.jpg,D:\Programming\test\Loblaws_Digital\images\textured.jpg,0.494103598,4.84
