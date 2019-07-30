@@ -34,11 +34,10 @@ At the time of the assignment, I was using Python 3.7 and the newest OpenCV vers
 ```bash
 pip3 install opencv-python==3.4.2.17 opencv-contrib-python==3.4.2.17
 ```
-In order to measure execution time, time and csv libraries were used but these are available built in to Python. Your final imports should appear as:
+In order to measure execution time and read/write from CSV files, time and csv libraries were used but these are available built in to Python. Your final imports should appear as:
 
 ```python
 import cv2
-import numpy as np
 import csv
 import time
 
