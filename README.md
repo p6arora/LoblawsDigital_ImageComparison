@@ -55,7 +55,17 @@ I feel using a feature tracking algorithm such as SIFT, ORB, BRISK, etc would pr
 
 ![Code Execution](misc/images/Code_execution.jpg)
 
-As shown above, the 
+As shown above, the program starts with preparing the output CSV file, which entails creating a CSV file and placing the respective column names of image1, image2, similarity, time_elapsed
+
+This is followed by counting the number of entries in the input CSV file and then iterating through each row, extracting the location of the images and reading it into memory
+
+It does a preliminary check of the RGB values to see if they're exactly identical and in the same size and channels. If they are, it calculates time elapsed and provides a score of 0 for the two images and writies to the result file
+
+If the images don't appear to be identical, the SIFT algirthm is initialized to find edges, vertices in the image it can associate as keypoints. It then removes outliers and mismatches from the algorithm by setting a max ratio the distance where 2 points which were linked can apart. 
+
+Based on the volume of correct matches and total matches observed, a similarity ratio is created and written to the result CSV file along with time elapsed
+
+
 
 ## Setup
 
