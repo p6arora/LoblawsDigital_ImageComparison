@@ -21,6 +21,18 @@ The justifications for my design and alternative design are explored in the Desi
 
 ## Design
 
+In order to understand the decision making, let's review requirements:
+
+* Bjorn would like to run the program on his windows and MacOS machine - needs *cross comparability*
+* Jeanie needs the program to be cost effective - should probably use a *free to use language/framework*
+* Ferris will be maintaning the application - needs to be*large amounts of community support* if problems arise
+
+![Cross Compatability]()
+
+Based on my research, Java, C++, Python and MATLAB were the best options for image processing. These also are all cross compatable through Java running on the JVM, C++ compiler having certain cross-compatability, as well as MATLAB
+
+
+
 ## Implementation
 
 ## Setup
