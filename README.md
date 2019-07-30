@@ -27,7 +27,7 @@ In order to understand the decision making, let's review requirements:
 * Jeanie needs the program to be cost effective - should probably use a *free to use language/framework*
 * Ferris will be maintaning the application - needs to be*large amounts of community support* if problems arise
 
-![Cross Compatability]()
+![Cross Compatability](misc/images/Cross_comparability_design.jpg)
 
 Based on my research, Java, C++, Python and MATLAB were the best options for image processing. These also are all cross compatable through Java running on the JVM, C++ compiler being natively available in UNIX and through Cygwin on Windows, as well as MATLAB being used extensively in academic work. Python also is an excellent choice for it's cross platform support and ease of use
 
@@ -53,7 +53,7 @@ I feel using a feature tracking algorithm such as SIFT, ORB, BRISK, etc would pr
 
 ## Implementation
 
-![Code Execution]()
+![Code Execution](misc/images/Code_execution.jpg)
 
 As shown above, the 
 
