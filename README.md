@@ -102,7 +102,11 @@ The output file would have to have a format of:
 
 In order to verify this tool was working as intended, I created a sample CSV file with modified images of the golden gate bridge. The file called ```input_test_data.csv``` appears as follows:
 
+![](misc/images/tests_input_data.JPG)
 
+The ```result_data.csv``` based on the input is this:
+
+![](misc/images/tests_result.JPG)
 
 The ```input_test_data.csv``` and ```result_data.csv``` are included in the repository can be used as a template
 
