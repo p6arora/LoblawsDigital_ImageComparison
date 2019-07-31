@@ -41,7 +41,7 @@ In the case of large online communities able to ask questions and provide suppor
 
 Between these two languages, Python was deemed the easiest to setup for cros-compatability purposes and ease of use.
 
-In terms of different avenues on how to solve the problems, there were Content Based Image Retrievel Systems which rank similarity based on Euclidean distance, Manhatten distance, and Histogram Intersection distance. However, based on my expereince, evaluating similarity based on the respective color bins isn't the most acurate as many pictures can have the same RGB values but the organization would be much different. This doesn't make them similar. For example, these 2 images have similar RGB values but different organization 
+In terms of different avenues on how to solve the problems, there were Content Based Image Retrievel Systems which rank similarity based on Euclidean distance, Manhatten distance, and Histogram Intersection distance. However, based on my experience, evaluating similarity based on the respective color bins isn't the most acurate as many pictures can have the same RGB values but the organization would be much different. This doesn't make them similar. For example, these 2 images have similar RGB values but different organization 
 
 ![static](misc/images/static.jpg)
 
