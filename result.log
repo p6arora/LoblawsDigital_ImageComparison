@@ -1,0 +1,803 @@
+2019-07-31 04:04:28,599:<module>:DEBUG:starting program
+2019-07-31 04:04:28,599:count_images:DEBUG:counting number of rows in CSV file
+2019-07-31 04:04:28,599:write_header:DEBUG:wrote result header
+2019-07-31 04:04:28,599:read_data:DEBUG:starting to read data
+2019-07-31 04:04:28,599:read_data:DEBUG:opened data file
+2019-07-31 04:04:28,599:read_data:DEBUG:[['D:\\Programming\\test\\Loblaws_Digital\\images\\original_golden_bridge.jpg', 'D:\\Programming\\test\\Loblaws_Digital\\images\\black_and_white.jpg']]
+2019-07-31 04:04:28,684:read_images:DEBUG:Read images
+2019-07-31 04:04:28,684:check_identical:DEBUG:Images have the same size and channel
+2019-07-31 04:04:28,684:check_identical:DEBUG:The images are NOT completely Equal
+2019-07-31 04:04:28,684:<module>:DEBUG:images NOT EQUAL - starting SIFT
+2019-07-31 04:04:29,761:generate_keypoints:DEBUG:Generated keypoints for both images
+2019-07-31 04:04:32,146:compare_images:DEBUG:found common points in images
+2019-07-31 04:04:32,147:<module>:DEBUG:filtering results now...
+2019-07-31 04:04:32,147:filter_results:DEBUG:Matches:6699
+2019-07-31 04:04:32,148:filter_results:DEBUG:Good Matches: 4630
+2019-07-31 04:04:32,148:<module>:DEBUG:generating a score...
+2019-07-31 04:04:32,148:publish_results:DEBUG:writing to CSV file...
+2019-07-31 04:04:32,148:publish_results:DEBUG:Write successful
+2019-07-31 04:04:32,148:read_data:DEBUG:starting to read data
+2019-07-31 04:04:32,149:read_data:DEBUG:opened data file
+2019-07-31 04:04:32,149:read_data:DEBUG:[['D:\\Programming\\test\\Loblaws_Digital\\images\\original_golden_bridge.jpg', 'D:\\Programming\\test\\Loblaws_Digital\\images\\blue_filter.jpg']]
+2019-07-31 04:04:32,236:read_images:DEBUG:Read images
+2019-07-31 04:04:32,236:check_identical:DEBUG:Images have the same size and channel
+2019-07-31 04:04:32,236:check_identical:DEBUG:The images are NOT completely Equal
+2019-07-31 04:04:32,236:<module>:DEBUG:images NOT EQUAL - starting SIFT
+2019-07-31 04:04:33,310:generate_keypoints:DEBUG:Generated keypoints for both images
+2019-07-31 04:04:35,610:compare_images:DEBUG:found common points in images
+2019-07-31 04:04:35,610:<module>:DEBUG:filtering results now...
+2019-07-31 04:04:35,610:filter_results:DEBUG:Matches:6699
+2019-07-31 04:04:35,610:filter_results:DEBUG:Good Matches: 5819
+2019-07-31 04:04:35,610:<module>:DEBUG:generating a score...
+2019-07-31 04:04:35,610:publish_results:DEBUG:writing to CSV file...
+2019-07-31 04:04:35,610:publish_results:DEBUG:Write successful
+2019-07-31 04:04:35,610:read_data:DEBUG:starting to read data
+2019-07-31 04:04:35,610:read_data:DEBUG:opened data file
+2019-07-31 04:04:35,610:read_data:DEBUG:[['D:\\Programming\\test\\Loblaws_Digital\\images\\original_golden_bridge.jpg', 'D:\\Programming\\test\\Loblaws_Digital\\images\\blurred.jpg']]
+2019-07-31 04:04:35,688:read_images:DEBUG:Read images
+2019-07-31 04:04:35,688:check_identical:DEBUG:Images have the same size and channel
+2019-07-31 04:04:35,688:check_identical:DEBUG:The images are NOT completely Equal
+2019-07-31 04:04:35,688:<module>:DEBUG:images NOT EQUAL - starting SIFT
+2019-07-31 04:04:36,645:generate_keypoints:DEBUG:Generated keypoints for both images
+2019-07-31 04:04:36,999:compare_images:DEBUG:found common points in images
+2019-07-31 04:04:36,999:<module>:DEBUG:filtering results now...
+2019-07-31 04:04:36,999:filter_results:DEBUG:Matches:6699
+2019-07-31 04:04:37,000:filter_results:DEBUG:Good Matches: 372
+2019-07-31 04:04:37,000:<module>:DEBUG:generating a score...
+2019-07-31 04:04:37,000:publish_results:DEBUG:writing to CSV file...
+2019-07-31 04:04:37,000:publish_results:DEBUG:Write successful
+2019-07-31 04:04:37,001:read_data:DEBUG:starting to read data
+2019-07-31 04:04:37,001:read_data:DEBUG:opened data file
+2019-07-31 04:04:37,001:read_data:DEBUG:[['D:\\Programming\\test\\Loblaws_Digital\\images\\original_golden_bridge.jpg', 'D:\\Programming\\test\\Loblaws_Digital\\images\\cartoonized.jpg']]
+2019-07-31 04:04:37,082:read_images:DEBUG:Read images
+2019-07-31 04:04:37,083:check_identical:DEBUG:Images have the same size and channel
+2019-07-31 04:04:37,092:check_identical:DEBUG:The images are NOT completely Equal
+2019-07-31 04:04:37,093:<module>:DEBUG:images NOT EQUAL - starting SIFT
+2019-07-31 04:04:38,095:generate_keypoints:DEBUG:Generated keypoints for both images
+2019-07-31 04:04:40,056:compare_images:DEBUG:found common points in images
+2019-07-31 04:04:40,056:<module>:DEBUG:filtering results now...
+2019-07-31 04:04:40,056:filter_results:DEBUG:Matches:6699
+2019-07-31 04:04:40,057:filter_results:DEBUG:Good Matches: 2668
+2019-07-31 04:04:40,057:<module>:DEBUG:generating a score...
+2019-07-31 04:04:40,058:publish_results:DEBUG:writing to CSV file...
+2019-07-31 04:04:40,058:publish_results:DEBUG:Write successful
+2019-07-31 04:04:40,058:read_data:DEBUG:starting to read data
+2019-07-31 04:04:40,058:read_data:DEBUG:opened data file
+2019-07-31 04:04:40,058:read_data:DEBUG:[['D:\\Programming\\test\\Loblaws_Digital\\images\\original_golden_bridge.jpg', 'D:\\Programming\\test\\Loblaws_Digital\\images\\exposured.jpg']]
+2019-07-31 04:04:40,139:read_images:DEBUG:Read images
+2019-07-31 04:04:40,140:check_identical:DEBUG:Images have the same size and channel
+2019-07-31 04:04:40,149:check_identical:DEBUG:The images are NOT completely Equal
+2019-07-31 04:04:40,150:<module>:DEBUG:images NOT EQUAL - starting SIFT
+2019-07-31 04:04:41,139:generate_keypoints:DEBUG:Generated keypoints for both images
+2019-07-31 04:04:42,831:compare_images:DEBUG:found common points in images
+2019-07-31 04:04:42,831:<module>:DEBUG:filtering results now...
+2019-07-31 04:04:42,831:filter_results:DEBUG:Matches:6699
+2019-07-31 04:04:42,832:filter_results:DEBUG:Good Matches: 1767
+2019-07-31 04:04:42,832:<module>:DEBUG:generating a score...
+2019-07-31 04:04:42,832:publish_results:DEBUG:writing to CSV file...
+2019-07-31 04:04:42,832:publish_results:DEBUG:Write successful
+2019-07-31 04:04:42,833:read_data:DEBUG:starting to read data
+2019-07-31 04:04:42,833:read_data:DEBUG:opened data file
+2019-07-31 04:04:42,833:read_data:DEBUG:[['D:\\Programming\\test\\Loblaws_Digital\\images\\original_golden_bridge.jpg', 'D:\\Programming\\test\\Loblaws_Digital\\images\\george-washington-bridge.jpg']]
+2019-07-31 04:04:42,905:read_images:DEBUG:Read images
+2019-07-31 04:04:42,907:<module>:DEBUG:images NOT EQUAL - starting SIFT
+2019-07-31 04:04:44,083:generate_keypoints:DEBUG:Generated keypoints for both images
+2019-07-31 04:04:48,919:compare_images:DEBUG:found common points in images
+2019-07-31 04:04:48,920:<module>:DEBUG:filtering results now...
+2019-07-31 04:04:48,920:filter_results:DEBUG:Matches:6699
+2019-07-31 04:04:48,920:filter_results:DEBUG:Good Matches: 0
+2019-07-31 04:04:48,920:<module>:DEBUG:generating a score...
+2019-07-31 04:04:48,920:publish_results:DEBUG:writing to CSV file...
+2019-07-31 04:04:48,921:publish_results:DEBUG:Write successful
+2019-07-31 04:04:48,921:read_data:DEBUG:starting to read data
+2019-07-31 04:04:48,921:read_data:DEBUG:opened data file
+2019-07-31 04:04:48,921:read_data:DEBUG:[['D:\\Programming\\test\\Loblaws_Digital\\images\\original_golden_bridge.jpg', 'D:\\Programming\\test\\Loblaws_Digital\\images\\old_photo.jpg']]
+2019-07-31 04:04:49,009:read_images:DEBUG:Read images
+2019-07-31 04:04:49,010:check_identical:DEBUG:Images have the same size and channel
+2019-07-31 04:04:49,018:check_identical:DEBUG:The images are NOT completely Equal
+2019-07-31 04:04:49,020:<module>:DEBUG:images NOT EQUAL - starting SIFT
+2019-07-31 04:04:50,046:generate_keypoints:DEBUG:Generated keypoints for both images
+2019-07-31 04:04:52,895:compare_images:DEBUG:found common points in images
+2019-07-31 04:04:52,895:<module>:DEBUG:filtering results now...
+2019-07-31 04:04:52,895:filter_results:DEBUG:Matches:6699
+2019-07-31 04:04:52,896:filter_results:DEBUG:Good Matches: 2428
+2019-07-31 04:04:52,896:<module>:DEBUG:generating a score...
+2019-07-31 04:04:52,896:publish_results:DEBUG:writing to CSV file...
+2019-07-31 04:04:52,897:publish_results:DEBUG:Write successful
+2019-07-31 04:04:52,897:read_data:DEBUG:starting to read data
+2019-07-31 04:04:52,897:read_data:DEBUG:opened data file
+2019-07-31 04:04:52,897:read_data:DEBUG:[['D:\\Programming\\test\\Loblaws_Digital\\images\\original_golden_bridge.jpg', 'D:\\Programming\\test\\Loblaws_Digital\\images\\original_golden_bridge.jpg']]
+2019-07-31 04:04:52,965:read_images:DEBUG:Read images
+2019-07-31 04:04:52,967:check_identical:DEBUG:Images have the same size and channel
+2019-07-31 04:04:52,976:publish_results:DEBUG:writing to CSV file...
+2019-07-31 04:04:52,977:publish_results:DEBUG:Write successful
+2019-07-31 04:04:52,977:check_identical:DEBUG:The images are completely Equal
+2019-07-31 04:04:52,978:read_data:DEBUG:starting to read data
+2019-07-31 04:04:52,978:read_data:DEBUG:opened data file
+2019-07-31 04:04:52,978:read_data:DEBUG:[['D:\\Programming\\test\\Loblaws_Digital\\images\\original_golden_bridge.jpg', 'D:\\Programming\\test\\Loblaws_Digital\\images\\overlay.jpg']]
+2019-07-31 04:04:53,053:read_images:DEBUG:Read images
+2019-07-31 04:04:53,055:check_identical:DEBUG:Images have the same size and channel
+2019-07-31 04:04:53,064:check_identical:DEBUG:The images are NOT completely Equal
+2019-07-31 04:04:53,065:<module>:DEBUG:images NOT EQUAL - starting SIFT
+2019-07-31 04:04:54,089:generate_keypoints:DEBUG:Generated keypoints for both images
+2019-07-31 04:04:55,042:compare_images:DEBUG:found common points in images
+2019-07-31 04:04:55,042:<module>:DEBUG:filtering results now...
+2019-07-31 04:04:55,042:filter_results:DEBUG:Matches:6699
+2019-07-31 04:04:55,043:filter_results:DEBUG:Good Matches: 1175
+2019-07-31 04:04:55,043:<module>:DEBUG:generating a score...
+2019-07-31 04:04:55,043:publish_results:DEBUG:writing to CSV file...
+2019-07-31 04:04:55,043:publish_results:DEBUG:Write successful
+2019-07-31 04:04:55,043:read_data:DEBUG:starting to read data
+2019-07-31 04:04:55,044:read_data:DEBUG:opened data file
+2019-07-31 04:04:55,044:read_data:DEBUG:[['D:\\Programming\\test\\Loblaws_Digital\\images\\original_golden_bridge.jpg', 'D:\\Programming\\test\\Loblaws_Digital\\images\\resized.jpg']]
+2019-07-31 04:04:55,104:read_images:DEBUG:Read images
+2019-07-31 04:04:55,105:<module>:DEBUG:images NOT EQUAL - starting SIFT
+2019-07-31 04:04:55,888:generate_keypoints:DEBUG:Generated keypoints for both images
+2019-07-31 04:04:56,435:compare_images:DEBUG:found common points in images
+2019-07-31 04:04:56,436:<module>:DEBUG:filtering results now...
+2019-07-31 04:04:56,436:filter_results:DEBUG:Matches:6699
+2019-07-31 04:04:56,437:filter_results:DEBUG:Good Matches: 619
+2019-07-31 04:04:56,437:<module>:DEBUG:generating a score...
+2019-07-31 04:04:56,437:publish_results:DEBUG:writing to CSV file...
+2019-07-31 04:04:56,437:publish_results:DEBUG:Write successful
+2019-07-31 04:04:56,437:read_data:DEBUG:starting to read data
+2019-07-31 04:04:56,438:read_data:DEBUG:opened data file
+2019-07-31 04:04:56,438:read_data:DEBUG:[['D:\\Programming\\test\\Loblaws_Digital\\images\\original_golden_bridge.jpg', 'D:\\Programming\\test\\Loblaws_Digital\\images\\rotated.jpg']]
+2019-07-31 04:04:56,522:read_images:DEBUG:Read images
+2019-07-31 04:04:56,523:<module>:DEBUG:images NOT EQUAL - starting SIFT
+2019-07-31 04:04:57,861:generate_keypoints:DEBUG:Generated keypoints for both images
+2019-07-31 04:05:01,040:compare_images:DEBUG:found common points in images
+2019-07-31 04:05:01,040:<module>:DEBUG:filtering results now...
+2019-07-31 04:05:01,040:filter_results:DEBUG:Matches:6699
+2019-07-31 04:05:01,041:filter_results:DEBUG:Good Matches: 5690
+2019-07-31 04:05:01,041:<module>:DEBUG:generating a score...
+2019-07-31 04:05:01,041:publish_results:DEBUG:writing to CSV file...
+2019-07-31 04:05:01,042:publish_results:DEBUG:Write successful
+2019-07-31 04:05:01,042:read_data:DEBUG:starting to read data
+2019-07-31 04:05:01,042:read_data:DEBUG:opened data file
+2019-07-31 04:05:01,042:read_data:DEBUG:[['D:\\Programming\\test\\Loblaws_Digital\\images\\original_golden_bridge.jpg', 'D:\\Programming\\test\\Loblaws_Digital\\images\\sharpened.jpg']]
+2019-07-31 04:05:01,136:read_images:DEBUG:Read images
+2019-07-31 04:05:01,137:check_identical:DEBUG:Images have the same size and channel
+2019-07-31 04:05:01,147:check_identical:DEBUG:The images are NOT completely Equal
+2019-07-31 04:05:01,148:<module>:DEBUG:images NOT EQUAL - starting SIFT
+2019-07-31 04:05:02,262:generate_keypoints:DEBUG:Generated keypoints for both images
+2019-07-31 04:05:06,152:compare_images:DEBUG:found common points in images
+2019-07-31 04:05:06,152:<module>:DEBUG:filtering results now...
+2019-07-31 04:05:06,152:filter_results:DEBUG:Matches:6699
+2019-07-31 04:05:06,152:filter_results:DEBUG:Good Matches: 3200
+2019-07-31 04:05:06,152:<module>:DEBUG:generating a score...
+2019-07-31 04:05:06,152:publish_results:DEBUG:writing to CSV file...
+2019-07-31 04:05:06,152:publish_results:DEBUG:Write successful
+2019-07-31 04:05:06,152:read_data:DEBUG:starting to read data
+2019-07-31 04:05:06,152:read_data:DEBUG:opened data file
+2019-07-31 04:05:06,152:read_data:DEBUG:[['D:\\Programming\\test\\Loblaws_Digital\\images\\original_golden_bridge.jpg', 'D:\\Programming\\test\\Loblaws_Digital\\images\\sunburst.jpg']]
+2019-07-31 04:05:06,253:read_images:DEBUG:Read images
+2019-07-31 04:05:06,253:check_identical:DEBUG:Images have the same size and channel
+2019-07-31 04:05:06,268:check_identical:DEBUG:The images are NOT completely Equal
+2019-07-31 04:05:06,268:<module>:DEBUG:images NOT EQUAL - starting SIFT
+2019-07-31 04:05:07,504:generate_keypoints:DEBUG:Generated keypoints for both images
+2019-07-31 04:05:15,149:compare_images:DEBUG:found common points in images
+2019-07-31 04:05:15,149:<module>:DEBUG:filtering results now...
+2019-07-31 04:05:15,149:filter_results:DEBUG:Matches:6699
+2019-07-31 04:05:15,150:filter_results:DEBUG:Good Matches: 518
+2019-07-31 04:05:15,150:<module>:DEBUG:generating a score...
+2019-07-31 04:05:15,150:publish_results:DEBUG:writing to CSV file...
+2019-07-31 04:05:15,150:publish_results:DEBUG:Write successful
+2019-07-31 04:05:15,150:read_data:DEBUG:starting to read data
+2019-07-31 04:05:15,151:read_data:DEBUG:opened data file
+2019-07-31 04:05:15,151:read_data:DEBUG:[['D:\\Programming\\test\\Loblaws_Digital\\images\\original_golden_bridge.jpg', 'D:\\Programming\\test\\Loblaws_Digital\\images\\textured.jpg']]
+2019-07-31 04:05:15,239:read_images:DEBUG:Read images
+2019-07-31 04:05:15,240:check_identical:DEBUG:Images have the same size and channel
+2019-07-31 04:05:15,248:check_identical:DEBUG:The images are NOT completely Equal
+2019-07-31 04:05:15,250:<module>:DEBUG:images NOT EQUAL - starting SIFT
+2019-07-31 04:05:16,311:generate_keypoints:DEBUG:Generated keypoints for both images
+2019-07-31 04:05:20,315:compare_images:DEBUG:found common points in images
+2019-07-31 04:05:20,315:<module>:DEBUG:filtering results now...
+2019-07-31 04:05:20,315:filter_results:DEBUG:Matches:6699
+2019-07-31 04:05:20,316:filter_results:DEBUG:Good Matches: 3389
+2019-07-31 04:05:20,316:<module>:DEBUG:generating a score...
+2019-07-31 04:05:20,316:publish_results:DEBUG:writing to CSV file...
+2019-07-31 04:05:20,316:publish_results:DEBUG:Write successful
+2019-07-31 04:07:19,530:<module>:DEBUG:starting program
+2019-07-31 04:07:19,530:count_images:DEBUG:counting number of rows in CSV file
+2019-07-31 04:07:19,530:write_header:DEBUG:wrote result header
+2019-07-31 04:07:19,530:read_data:DEBUG:starting to read data
+2019-07-31 04:07:19,530:read_data:DEBUG:opened data file
+2019-07-31 04:07:19,530:read_data:DEBUG:[['D:\\Programming\\test\\Loblaws_Digital\\images\\original_golden_bridge.jpg', 'D:\\Programming\\test\\Loblaws_Digital\\images\\black_and_white.jpg']]
+2019-07-31 04:07:19,593:read_images:DEBUG:Read images
+2019-07-31 04:07:19,593:check_identical:DEBUG:Images have the same size and channel
+2019-07-31 04:07:19,608:check_identical:DEBUG:The images are NOT completely Equal
+2019-07-31 04:07:19,608:<module>:DEBUG:images NOT EQUAL - starting SIFT
+2019-07-31 04:07:20,622:generate_keypoints:DEBUG:Generated keypoints for both images
+2019-07-31 04:07:22,928:compare_images:DEBUG:found common points in images
+2019-07-31 04:07:22,928:<module>:DEBUG:filtering results now...
+2019-07-31 04:07:22,928:filter_results:DEBUG:Matches:6699
+2019-07-31 04:07:22,929:filter_results:DEBUG:Good Matches: 4630
+2019-07-31 04:07:22,929:<module>:DEBUG:generating a score...
+2019-07-31 04:07:22,929:publish_results:DEBUG:writing to CSV file...
+2019-07-31 04:07:22,929:publish_results:DEBUG:Write successful
+2019-07-31 04:07:22,930:read_data:DEBUG:starting to read data
+2019-07-31 04:07:22,930:read_data:DEBUG:opened data file
+2019-07-31 04:07:22,930:read_data:DEBUG:[['D:\\Programming\\test\\Loblaws_Digital\\images\\original_golden_bridge.jpg', 'D:\\Programming\\test\\Loblaws_Digital\\images\\blue_filter.jpg']]
+2019-07-31 04:07:23,016:read_images:DEBUG:Read images
+2019-07-31 04:07:23,017:check_identical:DEBUG:Images have the same size and channel
+2019-07-31 04:07:23,026:check_identical:DEBUG:The images are NOT completely Equal
+2019-07-31 04:07:23,028:<module>:DEBUG:images NOT EQUAL - starting SIFT
+2019-07-31 04:07:24,046:generate_keypoints:DEBUG:Generated keypoints for both images
+2019-07-31 04:07:26,239:compare_images:DEBUG:found common points in images
+2019-07-31 04:07:26,239:<module>:DEBUG:filtering results now...
+2019-07-31 04:07:26,239:filter_results:DEBUG:Matches:6699
+2019-07-31 04:07:26,239:filter_results:DEBUG:Good Matches: 5819
+2019-07-31 04:07:26,239:<module>:DEBUG:generating a score...
+2019-07-31 04:07:26,239:publish_results:DEBUG:writing to CSV file...
+2019-07-31 04:07:26,239:publish_results:DEBUG:Write successful
+2019-07-31 04:07:26,239:read_data:DEBUG:starting to read data
+2019-07-31 04:07:26,239:read_data:DEBUG:opened data file
+2019-07-31 04:07:26,239:read_data:DEBUG:[['D:\\Programming\\test\\Loblaws_Digital\\images\\original_golden_bridge.jpg', 'D:\\Programming\\test\\Loblaws_Digital\\images\\blurred.jpg']]
+2019-07-31 04:07:26,308:read_images:DEBUG:Read images
+2019-07-31 04:07:26,310:check_identical:DEBUG:Images have the same size and channel
+2019-07-31 04:07:26,318:check_identical:DEBUG:The images are NOT completely Equal
+2019-07-31 04:07:26,320:<module>:DEBUG:images NOT EQUAL - starting SIFT
+2019-07-31 04:07:27,252:generate_keypoints:DEBUG:Generated keypoints for both images
+2019-07-31 04:07:27,598:compare_images:DEBUG:found common points in images
+2019-07-31 04:07:27,598:<module>:DEBUG:filtering results now...
+2019-07-31 04:07:27,598:filter_results:DEBUG:Matches:6699
+2019-07-31 04:07:27,598:filter_results:DEBUG:Good Matches: 372
+2019-07-31 04:07:27,598:<module>:DEBUG:generating a score...
+2019-07-31 04:07:27,598:publish_results:DEBUG:writing to CSV file...
+2019-07-31 04:07:27,598:publish_results:DEBUG:Write successful
+2019-07-31 04:07:27,598:read_data:DEBUG:starting to read data
+2019-07-31 04:07:27,598:read_data:DEBUG:opened data file
+2019-07-31 04:07:27,598:read_data:DEBUG:[['D:\\Programming\\test\\Loblaws_Digital\\images\\original_golden_bridge.jpg', 'D:\\Programming\\test\\Loblaws_Digital\\images\\cartoonized.jpg']]
+2019-07-31 04:07:27,679:read_images:DEBUG:Read images
+2019-07-31 04:07:27,687:check_identical:DEBUG:Images have the same size and channel
+2019-07-31 04:07:27,697:check_identical:DEBUG:The images are NOT completely Equal
+2019-07-31 04:07:27,697:<module>:DEBUG:images NOT EQUAL - starting SIFT
+2019-07-31 04:07:28,693:generate_keypoints:DEBUG:Generated keypoints for both images
+2019-07-31 04:07:30,654:compare_images:DEBUG:found common points in images
+2019-07-31 04:07:30,654:<module>:DEBUG:filtering results now...
+2019-07-31 04:07:30,654:filter_results:DEBUG:Matches:6699
+2019-07-31 04:07:30,654:filter_results:DEBUG:Good Matches: 2668
+2019-07-31 04:07:30,654:<module>:DEBUG:generating a score...
+2019-07-31 04:07:30,654:publish_results:DEBUG:writing to CSV file...
+2019-07-31 04:07:30,654:publish_results:DEBUG:Write successful
+2019-07-31 04:07:30,654:read_data:DEBUG:starting to read data
+2019-07-31 04:07:30,654:read_data:DEBUG:opened data file
+2019-07-31 04:07:30,654:read_data:DEBUG:[['D:\\Programming\\test\\Loblaws_Digital\\images\\original_golden_bridge.jpg', 'D:\\Programming\\test\\Loblaws_Digital\\images\\exposured.jpg']]
+2019-07-31 04:07:30,733:read_images:DEBUG:Read images
+2019-07-31 04:07:30,743:check_identical:DEBUG:Images have the same size and channel
+2019-07-31 04:07:30,752:check_identical:DEBUG:The images are NOT completely Equal
+2019-07-31 04:07:30,753:<module>:DEBUG:images NOT EQUAL - starting SIFT
+2019-07-31 04:07:31,780:generate_keypoints:DEBUG:Generated keypoints for both images
+2019-07-31 04:07:33,480:compare_images:DEBUG:found common points in images
+2019-07-31 04:07:33,480:<module>:DEBUG:filtering results now...
+2019-07-31 04:07:33,480:filter_results:DEBUG:Matches:6699
+2019-07-31 04:07:33,480:filter_results:DEBUG:Good Matches: 1767
+2019-07-31 04:07:33,480:<module>:DEBUG:generating a score...
+2019-07-31 04:07:33,480:publish_results:DEBUG:writing to CSV file...
+2019-07-31 04:07:33,480:publish_results:DEBUG:Write successful
+2019-07-31 04:07:33,480:read_data:DEBUG:starting to read data
+2019-07-31 04:07:33,480:read_data:DEBUG:opened data file
+2019-07-31 04:07:33,480:read_data:DEBUG:[['D:\\Programming\\test\\Loblaws_Digital\\images\\original_golden_bridge.jpg', 'D:\\Programming\\test\\Loblaws_Digital\\images\\george-washington-bridge.jpg']]
+2019-07-31 04:07:33,549:read_images:DEBUG:Read images
+2019-07-31 04:07:33,549:<module>:DEBUG:images NOT EQUAL - starting SIFT
+2019-07-31 04:07:34,752:generate_keypoints:DEBUG:Generated keypoints for both images
+2019-07-31 04:07:39,573:compare_images:DEBUG:found common points in images
+2019-07-31 04:07:39,573:<module>:DEBUG:filtering results now...
+2019-07-31 04:07:39,573:filter_results:DEBUG:Matches:6699
+2019-07-31 04:07:39,573:filter_results:DEBUG:Good Matches: 0
+2019-07-31 04:07:39,573:<module>:DEBUG:generating a score...
+2019-07-31 04:07:39,573:publish_results:DEBUG:writing to CSV file...
+2019-07-31 04:07:39,573:publish_results:DEBUG:Write successful
+2019-07-31 04:07:39,573:read_data:DEBUG:starting to read data
+2019-07-31 04:07:39,573:read_data:DEBUG:opened data file
+2019-07-31 04:07:39,573:read_data:DEBUG:[['D:\\Programming\\test\\Loblaws_Digital\\images\\original_golden_bridge.jpg', 'D:\\Programming\\test\\Loblaws_Digital\\images\\old_photo.jpg']]
+2019-07-31 04:07:39,663:read_images:DEBUG:Read images
+2019-07-31 04:07:39,663:check_identical:DEBUG:Images have the same size and channel
+2019-07-31 04:07:39,673:check_identical:DEBUG:The images are NOT completely Equal
+2019-07-31 04:07:39,673:<module>:DEBUG:images NOT EQUAL - starting SIFT
+2019-07-31 04:07:40,747:generate_keypoints:DEBUG:Generated keypoints for both images
+2019-07-31 04:07:43,573:compare_images:DEBUG:found common points in images
+2019-07-31 04:07:43,573:<module>:DEBUG:filtering results now...
+2019-07-31 04:07:43,573:filter_results:DEBUG:Matches:6699
+2019-07-31 04:07:43,573:filter_results:DEBUG:Good Matches: 2428
+2019-07-31 04:07:43,573:<module>:DEBUG:generating a score...
+2019-07-31 04:07:43,573:publish_results:DEBUG:writing to CSV file...
+2019-07-31 04:07:43,573:publish_results:DEBUG:Write successful
+2019-07-31 04:07:43,573:read_data:DEBUG:starting to read data
+2019-07-31 04:07:43,573:read_data:DEBUG:opened data file
+2019-07-31 04:07:43,573:read_data:DEBUG:[['D:\\Programming\\test\\Loblaws_Digital\\images\\original_golden_bridge.jpg', 'D:\\Programming\\test\\Loblaws_Digital\\images\\original_golden_bridge.jpg']]
+2019-07-31 04:07:43,651:read_images:DEBUG:Read images
+2019-07-31 04:07:43,651:check_identical:DEBUG:Images have the same size and channel
+2019-07-31 04:07:43,651:publish_results:DEBUG:writing to CSV file...
+2019-07-31 04:07:43,651:publish_results:DEBUG:Write successful
+2019-07-31 04:07:43,651:check_identical:DEBUG:The images are completely Equal
+2019-07-31 04:07:43,651:read_data:DEBUG:starting to read data
+2019-07-31 04:07:43,651:read_data:DEBUG:opened data file
+2019-07-31 04:07:43,651:read_data:DEBUG:[['D:\\Programming\\test\\Loblaws_Digital\\images\\original_golden_bridge.jpg', 'D:\\Programming\\test\\Loblaws_Digital\\images\\overlay.jpg']]
+2019-07-31 04:07:43,736:read_images:DEBUG:Read images
+2019-07-31 04:07:43,737:check_identical:DEBUG:Images have the same size and channel
+2019-07-31 04:07:43,747:check_identical:DEBUG:The images are NOT completely Equal
+2019-07-31 04:07:43,748:<module>:DEBUG:images NOT EQUAL - starting SIFT
+2019-07-31 04:07:44,725:generate_keypoints:DEBUG:Generated keypoints for both images
+2019-07-31 04:07:45,581:compare_images:DEBUG:found common points in images
+2019-07-31 04:07:45,581:<module>:DEBUG:filtering results now...
+2019-07-31 04:07:45,581:filter_results:DEBUG:Matches:6699
+2019-07-31 04:07:45,581:filter_results:DEBUG:Good Matches: 1175
+2019-07-31 04:07:45,581:<module>:DEBUG:generating a score...
+2019-07-31 04:07:45,581:publish_results:DEBUG:writing to CSV file...
+2019-07-31 04:07:45,581:publish_results:DEBUG:Write successful
+2019-07-31 04:07:45,581:read_data:DEBUG:starting to read data
+2019-07-31 04:07:45,581:read_data:DEBUG:opened data file
+2019-07-31 04:07:45,581:read_data:DEBUG:[['D:\\Programming\\test\\Loblaws_Digital\\images\\original_golden_bridge.jpg', 'D:\\Programming\\test\\Loblaws_Digital\\images\\resized.jpg']]
+2019-07-31 04:07:45,628:read_images:DEBUG:Read images
+2019-07-31 04:07:45,628:<module>:DEBUG:images NOT EQUAL - starting SIFT
+2019-07-31 04:07:46,206:generate_keypoints:DEBUG:Generated keypoints for both images
+2019-07-31 04:07:46,686:compare_images:DEBUG:found common points in images
+2019-07-31 04:07:46,686:<module>:DEBUG:filtering results now...
+2019-07-31 04:07:46,686:filter_results:DEBUG:Matches:6699
+2019-07-31 04:07:46,686:filter_results:DEBUG:Good Matches: 619
+2019-07-31 04:07:46,686:<module>:DEBUG:generating a score...
+2019-07-31 04:07:46,686:publish_results:DEBUG:writing to CSV file...
+2019-07-31 04:07:46,686:publish_results:DEBUG:Write successful
+2019-07-31 04:07:46,686:read_data:DEBUG:starting to read data
+2019-07-31 04:07:46,686:read_data:DEBUG:opened data file
+2019-07-31 04:07:46,686:read_data:DEBUG:[['D:\\Programming\\test\\Loblaws_Digital\\images\\original_golden_bridge.jpg', 'D:\\Programming\\test\\Loblaws_Digital\\images\\rotated.jpg']]
+2019-07-31 04:07:46,772:read_images:DEBUG:Read images
+2019-07-31 04:07:46,773:<module>:DEBUG:images NOT EQUAL - starting SIFT
+2019-07-31 04:07:47,801:generate_keypoints:DEBUG:Generated keypoints for both images
+2019-07-31 04:07:50,163:compare_images:DEBUG:found common points in images
+2019-07-31 04:07:50,163:<module>:DEBUG:filtering results now...
+2019-07-31 04:07:50,163:filter_results:DEBUG:Matches:6699
+2019-07-31 04:07:50,163:filter_results:DEBUG:Good Matches: 5690
+2019-07-31 04:07:50,163:<module>:DEBUG:generating a score...
+2019-07-31 04:07:50,163:publish_results:DEBUG:writing to CSV file...
+2019-07-31 04:07:50,163:publish_results:DEBUG:Write successful
+2019-07-31 04:07:50,163:read_data:DEBUG:starting to read data
+2019-07-31 04:07:50,163:read_data:DEBUG:opened data file
+2019-07-31 04:07:50,163:read_data:DEBUG:[['D:\\Programming\\test\\Loblaws_Digital\\images\\original_golden_bridge.jpg', 'D:\\Programming\\test\\Loblaws_Digital\\images\\sharpened.jpg']]
+2019-07-31 04:07:50,253:read_images:DEBUG:Read images
+2019-07-31 04:07:50,253:check_identical:DEBUG:Images have the same size and channel
+2019-07-31 04:07:50,263:check_identical:DEBUG:The images are NOT completely Equal
+2019-07-31 04:07:50,263:<module>:DEBUG:images NOT EQUAL - starting SIFT
+2019-07-31 04:07:51,335:generate_keypoints:DEBUG:Generated keypoints for both images
+2019-07-31 04:07:55,016:compare_images:DEBUG:found common points in images
+2019-07-31 04:07:55,017:<module>:DEBUG:filtering results now...
+2019-07-31 04:07:55,017:filter_results:DEBUG:Matches:6699
+2019-07-31 04:07:55,017:filter_results:DEBUG:Good Matches: 3200
+2019-07-31 04:07:55,017:<module>:DEBUG:generating a score...
+2019-07-31 04:07:55,017:publish_results:DEBUG:writing to CSV file...
+2019-07-31 04:07:55,017:publish_results:DEBUG:Write successful
+2019-07-31 04:07:55,017:read_data:DEBUG:starting to read data
+2019-07-31 04:07:55,017:read_data:DEBUG:opened data file
+2019-07-31 04:07:55,018:read_data:DEBUG:[['D:\\Programming\\test\\Loblaws_Digital\\images\\original_golden_bridge.jpg', 'D:\\Programming\\test\\Loblaws_Digital\\images\\sunburst.jpg']]
+2019-07-31 04:07:55,113:read_images:DEBUG:Read images
+2019-07-31 04:07:55,114:check_identical:DEBUG:Images have the same size and channel
+2019-07-31 04:07:55,123:check_identical:DEBUG:The images are NOT completely Equal
+2019-07-31 04:07:55,124:<module>:DEBUG:images NOT EQUAL - starting SIFT
+2019-07-31 04:07:56,301:generate_keypoints:DEBUG:Generated keypoints for both images
+2019-07-31 04:08:03,703:compare_images:DEBUG:found common points in images
+2019-07-31 04:08:03,703:<module>:DEBUG:filtering results now...
+2019-07-31 04:08:03,703:filter_results:DEBUG:Matches:6699
+2019-07-31 04:08:03,703:filter_results:DEBUG:Good Matches: 518
+2019-07-31 04:08:03,703:<module>:DEBUG:generating a score...
+2019-07-31 04:08:03,703:publish_results:DEBUG:writing to CSV file...
+2019-07-31 04:08:03,703:publish_results:DEBUG:Write successful
+2019-07-31 04:08:03,703:read_data:DEBUG:starting to read data
+2019-07-31 04:08:03,703:read_data:DEBUG:opened data file
+2019-07-31 04:08:03,703:read_data:DEBUG:[['D:\\Programming\\test\\Loblaws_Digital\\images\\original_golden_bridge.jpg', 'D:\\Programming\\test\\Loblaws_Digital\\images\\textured.jpg']]
+2019-07-31 04:08:03,794:read_images:DEBUG:Read images
+2019-07-31 04:08:03,796:check_identical:DEBUG:Images have the same size and channel
+2019-07-31 04:08:03,805:check_identical:DEBUG:The images are NOT completely Equal
+2019-07-31 04:08:03,807:<module>:DEBUG:images NOT EQUAL - starting SIFT
+2019-07-31 04:08:04,862:generate_keypoints:DEBUG:Generated keypoints for both images
+2019-07-31 04:08:08,237:compare_images:DEBUG:found common points in images
+2019-07-31 04:08:08,237:<module>:DEBUG:filtering results now...
+2019-07-31 04:08:08,237:filter_results:DEBUG:Matches:6699
+2019-07-31 04:08:08,245:filter_results:DEBUG:Good Matches: 3389
+2019-07-31 04:08:08,245:<module>:DEBUG:generating a score...
+2019-07-31 04:08:08,245:publish_results:DEBUG:writing to CSV file...
+2019-07-31 04:08:08,245:publish_results:DEBUG:Write successful
+2019-07-31 04:14:30,797:main:DEBUG:starting program
+2019-07-31 04:14:30,797:count_image_pairs:DEBUG:counting number of rows in CSV file
+2019-07-31 04:14:30,797:write_header:DEBUG:wrote result header
+2019-07-31 04:15:03,960:main:DEBUG:starting program
+2019-07-31 04:15:03,960:count_image_pairs:DEBUG:counting number of rows in CSV file
+2019-07-31 04:15:03,961:write_header:DEBUG:wrote result header
+2019-07-31 04:15:03,961:read_data:DEBUG:starting to read data
+2019-07-31 04:15:03,961:read_data:DEBUG:opened data file
+2019-07-31 04:15:03,961:read_data:DEBUG:[['D:\\Programming\\test\\Loblaws_Digital\\images\\original_golden_bridge.jpg', 'D:\\Programming\\test\\Loblaws_Digital\\images\\black_and_white.jpg']]
+2019-07-31 04:15:04,033:read_images:DEBUG:Read images
+2019-07-31 04:15:04,033:check_identical:DEBUG:Images have the same size and channel
+2019-07-31 04:15:04,041:check_identical:DEBUG:The images are NOT completely Equal
+2019-07-31 04:15:04,042:main:DEBUG:images NOT EQUAL - starting SIFT
+2019-07-31 04:15:05,066:generate_keypoints:DEBUG:Generated keypoints for both images
+2019-07-31 04:15:07,327:compare_images:DEBUG:found common points in images
+2019-07-31 04:15:07,327:main:DEBUG:filtering results now...
+2019-07-31 04:15:07,327:filter_results:DEBUG:Matches:6699
+2019-07-31 04:15:07,327:filter_results:DEBUG:Good Matches: 4630
+2019-07-31 04:15:07,327:main:DEBUG:generating a score...
+2019-07-31 04:15:07,327:publish_results:DEBUG:writing to CSV file...
+2019-07-31 04:15:07,327:publish_results:DEBUG:Write successful
+2019-07-31 04:15:07,327:read_data:DEBUG:starting to read data
+2019-07-31 04:15:07,327:read_data:DEBUG:opened data file
+2019-07-31 04:15:07,327:read_data:DEBUG:[['D:\\Programming\\test\\Loblaws_Digital\\images\\original_golden_bridge.jpg', 'D:\\Programming\\test\\Loblaws_Digital\\images\\blue_filter.jpg']]
+2019-07-31 04:15:07,416:read_images:DEBUG:Read images
+2019-07-31 04:15:07,418:check_identical:DEBUG:Images have the same size and channel
+2019-07-31 04:15:07,426:check_identical:DEBUG:The images are NOT completely Equal
+2019-07-31 04:15:07,428:main:DEBUG:images NOT EQUAL - starting SIFT
+2019-07-31 04:15:08,431:generate_keypoints:DEBUG:Generated keypoints for both images
+2019-07-31 04:15:10,628:compare_images:DEBUG:found common points in images
+2019-07-31 04:15:10,628:main:DEBUG:filtering results now...
+2019-07-31 04:15:10,628:filter_results:DEBUG:Matches:6699
+2019-07-31 04:15:10,628:filter_results:DEBUG:Good Matches: 5819
+2019-07-31 04:15:10,628:main:DEBUG:generating a score...
+2019-07-31 04:15:10,628:publish_results:DEBUG:writing to CSV file...
+2019-07-31 04:15:10,630:publish_results:DEBUG:Write successful
+2019-07-31 04:15:10,630:read_data:DEBUG:starting to read data
+2019-07-31 04:15:10,630:read_data:DEBUG:opened data file
+2019-07-31 04:15:10,630:read_data:DEBUG:[['D:\\Programming\\test\\Loblaws_Digital\\images\\original_golden_bridge.jpg', 'D:\\Programming\\test\\Loblaws_Digital\\images\\blurred.jpg']]
+2019-07-31 04:15:10,698:read_images:DEBUG:Read images
+2019-07-31 04:15:10,698:check_identical:DEBUG:Images have the same size and channel
+2019-07-31 04:15:10,710:check_identical:DEBUG:The images are NOT completely Equal
+2019-07-31 04:15:10,710:main:DEBUG:images NOT EQUAL - starting SIFT
+2019-07-31 04:15:11,643:generate_keypoints:DEBUG:Generated keypoints for both images
+2019-07-31 04:15:11,997:compare_images:DEBUG:found common points in images
+2019-07-31 04:15:11,997:main:DEBUG:filtering results now...
+2019-07-31 04:15:11,997:filter_results:DEBUG:Matches:6699
+2019-07-31 04:15:11,998:filter_results:DEBUG:Good Matches: 372
+2019-07-31 04:15:11,998:main:DEBUG:generating a score...
+2019-07-31 04:15:11,998:publish_results:DEBUG:writing to CSV file...
+2019-07-31 04:15:11,998:publish_results:DEBUG:Write successful
+2019-07-31 04:15:11,998:read_data:DEBUG:starting to read data
+2019-07-31 04:15:11,999:read_data:DEBUG:opened data file
+2019-07-31 04:15:11,999:read_data:DEBUG:[['D:\\Programming\\test\\Loblaws_Digital\\images\\original_golden_bridge.jpg', 'D:\\Programming\\test\\Loblaws_Digital\\images\\cartoonized.jpg']]
+2019-07-31 04:15:12,080:read_images:DEBUG:Read images
+2019-07-31 04:15:12,082:check_identical:DEBUG:Images have the same size and channel
+2019-07-31 04:15:12,090:check_identical:DEBUG:The images are NOT completely Equal
+2019-07-31 04:15:12,091:main:DEBUG:images NOT EQUAL - starting SIFT
+2019-07-31 04:15:13,084:generate_keypoints:DEBUG:Generated keypoints for both images
+2019-07-31 04:15:15,046:compare_images:DEBUG:found common points in images
+2019-07-31 04:15:15,047:main:DEBUG:filtering results now...
+2019-07-31 04:15:15,047:filter_results:DEBUG:Matches:6699
+2019-07-31 04:15:15,048:filter_results:DEBUG:Good Matches: 2668
+2019-07-31 04:15:15,048:main:DEBUG:generating a score...
+2019-07-31 04:15:15,048:publish_results:DEBUG:writing to CSV file...
+2019-07-31 04:15:15,048:publish_results:DEBUG:Write successful
+2019-07-31 04:15:15,048:read_data:DEBUG:starting to read data
+2019-07-31 04:15:15,049:read_data:DEBUG:opened data file
+2019-07-31 04:15:15,049:read_data:DEBUG:[['D:\\Programming\\test\\Loblaws_Digital\\images\\original_golden_bridge.jpg', 'D:\\Programming\\test\\Loblaws_Digital\\images\\exposured.jpg']]
+2019-07-31 04:15:15,130:read_images:DEBUG:Read images
+2019-07-31 04:15:15,132:check_identical:DEBUG:Images have the same size and channel
+2019-07-31 04:15:15,140:check_identical:DEBUG:The images are NOT completely Equal
+2019-07-31 04:15:15,141:main:DEBUG:images NOT EQUAL - starting SIFT
+2019-07-31 04:15:16,124:generate_keypoints:DEBUG:Generated keypoints for both images
+2019-07-31 04:15:17,807:compare_images:DEBUG:found common points in images
+2019-07-31 04:15:17,808:main:DEBUG:filtering results now...
+2019-07-31 04:15:17,808:filter_results:DEBUG:Matches:6699
+2019-07-31 04:15:17,809:filter_results:DEBUG:Good Matches: 1767
+2019-07-31 04:15:17,809:main:DEBUG:generating a score...
+2019-07-31 04:15:17,809:publish_results:DEBUG:writing to CSV file...
+2019-07-31 04:15:17,809:publish_results:DEBUG:Write successful
+2019-07-31 04:15:17,809:read_data:DEBUG:starting to read data
+2019-07-31 04:15:17,809:read_data:DEBUG:opened data file
+2019-07-31 04:15:17,809:read_data:DEBUG:[['D:\\Programming\\test\\Loblaws_Digital\\images\\original_golden_bridge.jpg', 'D:\\Programming\\test\\Loblaws_Digital\\images\\george-washington-bridge.jpg']]
+2019-07-31 04:15:17,882:read_images:DEBUG:Read images
+2019-07-31 04:15:17,883:main:DEBUG:images NOT EQUAL - starting SIFT
+2019-07-31 04:15:19,102:generate_keypoints:DEBUG:Generated keypoints for both images
+2019-07-31 04:15:23,938:compare_images:DEBUG:found common points in images
+2019-07-31 04:15:23,938:main:DEBUG:filtering results now...
+2019-07-31 04:15:23,939:filter_results:DEBUG:Matches:6699
+2019-07-31 04:15:23,939:filter_results:DEBUG:Good Matches: 0
+2019-07-31 04:15:23,939:main:DEBUG:generating a score...
+2019-07-31 04:15:23,939:publish_results:DEBUG:writing to CSV file...
+2019-07-31 04:15:23,940:publish_results:DEBUG:Write successful
+2019-07-31 04:15:23,940:read_data:DEBUG:starting to read data
+2019-07-31 04:15:23,940:read_data:DEBUG:opened data file
+2019-07-31 04:15:23,940:read_data:DEBUG:[['D:\\Programming\\test\\Loblaws_Digital\\images\\original_golden_bridge.jpg', 'D:\\Programming\\test\\Loblaws_Digital\\images\\old_photo.jpg']]
+2019-07-31 04:15:24,030:read_images:DEBUG:Read images
+2019-07-31 04:15:24,032:check_identical:DEBUG:Images have the same size and channel
+2019-07-31 04:15:24,041:check_identical:DEBUG:The images are NOT completely Equal
+2019-07-31 04:15:24,043:main:DEBUG:images NOT EQUAL - starting SIFT
+2019-07-31 04:15:25,199:generate_keypoints:DEBUG:Generated keypoints for both images
+2019-07-31 04:15:28,290:compare_images:DEBUG:found common points in images
+2019-07-31 04:15:28,290:main:DEBUG:filtering results now...
+2019-07-31 04:15:28,290:filter_results:DEBUG:Matches:6699
+2019-07-31 04:15:28,290:filter_results:DEBUG:Good Matches: 2428
+2019-07-31 04:15:28,290:main:DEBUG:generating a score...
+2019-07-31 04:15:28,290:publish_results:DEBUG:writing to CSV file...
+2019-07-31 04:15:28,298:publish_results:DEBUG:Write successful
+2019-07-31 04:15:28,298:read_data:DEBUG:starting to read data
+2019-07-31 04:15:28,298:read_data:DEBUG:opened data file
+2019-07-31 04:15:28,298:read_data:DEBUG:[['D:\\Programming\\test\\Loblaws_Digital\\images\\original_golden_bridge.jpg', 'D:\\Programming\\test\\Loblaws_Digital\\images\\original_golden_bridge.jpg']]
+2019-07-31 04:15:28,361:read_images:DEBUG:Read images
+2019-07-31 04:15:28,361:check_identical:DEBUG:Images have the same size and channel
+2019-07-31 04:15:28,371:publish_results:DEBUG:writing to CSV file...
+2019-07-31 04:15:28,371:publish_results:DEBUG:Write successful
+2019-07-31 04:15:28,371:check_identical:DEBUG:The images are completely Equal
+2019-07-31 04:15:28,371:read_data:DEBUG:starting to read data
+2019-07-31 04:15:28,371:read_data:DEBUG:opened data file
+2019-07-31 04:15:28,371:read_data:DEBUG:[['D:\\Programming\\test\\Loblaws_Digital\\images\\original_golden_bridge.jpg', 'D:\\Programming\\test\\Loblaws_Digital\\images\\overlay.jpg']]
+2019-07-31 04:15:28,452:read_images:DEBUG:Read images
+2019-07-31 04:15:28,452:check_identical:DEBUG:Images have the same size and channel
+2019-07-31 04:15:28,462:check_identical:DEBUG:The images are NOT completely Equal
+2019-07-31 04:15:28,462:main:DEBUG:images NOT EQUAL - starting SIFT
+2019-07-31 04:15:29,437:generate_keypoints:DEBUG:Generated keypoints for both images
+2019-07-31 04:15:30,311:compare_images:DEBUG:found common points in images
+2019-07-31 04:15:30,311:main:DEBUG:filtering results now...
+2019-07-31 04:15:30,311:filter_results:DEBUG:Matches:6699
+2019-07-31 04:15:30,311:filter_results:DEBUG:Good Matches: 1175
+2019-07-31 04:15:30,311:main:DEBUG:generating a score...
+2019-07-31 04:15:30,311:publish_results:DEBUG:writing to CSV file...
+2019-07-31 04:15:30,311:publish_results:DEBUG:Write successful
+2019-07-31 04:15:30,311:read_data:DEBUG:starting to read data
+2019-07-31 04:15:30,311:read_data:DEBUG:opened data file
+2019-07-31 04:15:30,311:read_data:DEBUG:[['D:\\Programming\\test\\Loblaws_Digital\\images\\original_golden_bridge.jpg', 'D:\\Programming\\test\\Loblaws_Digital\\images\\resized.jpg']]
+2019-07-31 04:15:30,361:read_images:DEBUG:Read images
+2019-07-31 04:15:30,361:main:DEBUG:images NOT EQUAL - starting SIFT
+2019-07-31 04:15:30,964:generate_keypoints:DEBUG:Generated keypoints for both images
+2019-07-31 04:15:31,455:compare_images:DEBUG:found common points in images
+2019-07-31 04:15:31,455:main:DEBUG:filtering results now...
+2019-07-31 04:15:31,455:filter_results:DEBUG:Matches:6699
+2019-07-31 04:15:31,455:filter_results:DEBUG:Good Matches: 619
+2019-07-31 04:15:31,455:main:DEBUG:generating a score...
+2019-07-31 04:15:31,455:publish_results:DEBUG:writing to CSV file...
+2019-07-31 04:15:31,455:publish_results:DEBUG:Write successful
+2019-07-31 04:15:31,455:read_data:DEBUG:starting to read data
+2019-07-31 04:15:31,455:read_data:DEBUG:opened data file
+2019-07-31 04:15:31,455:read_data:DEBUG:[['D:\\Programming\\test\\Loblaws_Digital\\images\\original_golden_bridge.jpg', 'D:\\Programming\\test\\Loblaws_Digital\\images\\rotated.jpg']]
+2019-07-31 04:15:31,535:read_images:DEBUG:Read images
+2019-07-31 04:15:31,535:main:DEBUG:images NOT EQUAL - starting SIFT
+2019-07-31 04:15:32,574:generate_keypoints:DEBUG:Generated keypoints for both images
+2019-07-31 04:15:34,901:compare_images:DEBUG:found common points in images
+2019-07-31 04:15:34,901:main:DEBUG:filtering results now...
+2019-07-31 04:15:34,901:filter_results:DEBUG:Matches:6699
+2019-07-31 04:15:34,903:filter_results:DEBUG:Good Matches: 5690
+2019-07-31 04:15:34,903:main:DEBUG:generating a score...
+2019-07-31 04:15:34,903:publish_results:DEBUG:writing to CSV file...
+2019-07-31 04:15:34,903:publish_results:DEBUG:Write successful
+2019-07-31 04:15:34,903:read_data:DEBUG:starting to read data
+2019-07-31 04:15:34,903:read_data:DEBUG:opened data file
+2019-07-31 04:15:34,903:read_data:DEBUG:[['D:\\Programming\\test\\Loblaws_Digital\\images\\original_golden_bridge.jpg', 'D:\\Programming\\test\\Loblaws_Digital\\images\\sharpened.jpg']]
+2019-07-31 04:15:34,991:read_images:DEBUG:Read images
+2019-07-31 04:15:34,991:check_identical:DEBUG:Images have the same size and channel
+2019-07-31 04:15:34,991:check_identical:DEBUG:The images are NOT completely Equal
+2019-07-31 04:15:34,991:main:DEBUG:images NOT EQUAL - starting SIFT
+2019-07-31 04:15:36,099:generate_keypoints:DEBUG:Generated keypoints for both images
+2019-07-31 04:15:39,844:compare_images:DEBUG:found common points in images
+2019-07-31 04:15:39,844:main:DEBUG:filtering results now...
+2019-07-31 04:15:39,844:filter_results:DEBUG:Matches:6699
+2019-07-31 04:15:39,845:filter_results:DEBUG:Good Matches: 3200
+2019-07-31 04:15:39,845:main:DEBUG:generating a score...
+2019-07-31 04:15:39,845:publish_results:DEBUG:writing to CSV file...
+2019-07-31 04:15:39,845:publish_results:DEBUG:Write successful
+2019-07-31 04:15:39,845:read_data:DEBUG:starting to read data
+2019-07-31 04:15:39,846:read_data:DEBUG:opened data file
+2019-07-31 04:15:39,846:read_data:DEBUG:[['D:\\Programming\\test\\Loblaws_Digital\\images\\original_golden_bridge.jpg', 'D:\\Programming\\test\\Loblaws_Digital\\images\\sunburst.jpg']]
+2019-07-31 04:15:39,949:read_images:DEBUG:Read images
+2019-07-31 04:15:39,950:check_identical:DEBUG:Images have the same size and channel
+2019-07-31 04:15:39,959:check_identical:DEBUG:The images are NOT completely Equal
+2019-07-31 04:15:39,960:main:DEBUG:images NOT EQUAL - starting SIFT
+2019-07-31 04:15:41,142:generate_keypoints:DEBUG:Generated keypoints for both images
+2019-07-31 04:15:48,628:compare_images:DEBUG:found common points in images
+2019-07-31 04:15:48,628:main:DEBUG:filtering results now...
+2019-07-31 04:15:48,628:filter_results:DEBUG:Matches:6699
+2019-07-31 04:15:48,628:filter_results:DEBUG:Good Matches: 518
+2019-07-31 04:15:48,628:main:DEBUG:generating a score...
+2019-07-31 04:15:48,628:publish_results:DEBUG:writing to CSV file...
+2019-07-31 04:15:48,630:publish_results:DEBUG:Write successful
+2019-07-31 04:15:48,630:read_data:DEBUG:starting to read data
+2019-07-31 04:15:48,630:read_data:DEBUG:opened data file
+2019-07-31 04:15:48,630:read_data:DEBUG:[['D:\\Programming\\test\\Loblaws_Digital\\images\\original_golden_bridge.jpg', 'D:\\Programming\\test\\Loblaws_Digital\\images\\textured.jpg']]
+2019-07-31 04:15:48,719:read_images:DEBUG:Read images
+2019-07-31 04:15:48,721:check_identical:DEBUG:Images have the same size and channel
+2019-07-31 04:15:48,731:check_identical:DEBUG:The images are NOT completely Equal
+2019-07-31 04:15:48,733:main:DEBUG:images NOT EQUAL - starting SIFT
+2019-07-31 04:15:49,793:generate_keypoints:DEBUG:Generated keypoints for both images
+2019-07-31 04:15:53,201:compare_images:DEBUG:found common points in images
+2019-07-31 04:15:53,201:main:DEBUG:filtering results now...
+2019-07-31 04:15:53,201:filter_results:DEBUG:Matches:6699
+2019-07-31 04:15:53,201:filter_results:DEBUG:Good Matches: 3389
+2019-07-31 04:15:53,201:main:DEBUG:generating a score...
+2019-07-31 04:15:53,201:publish_results:DEBUG:writing to CSV file...
+2019-07-31 04:15:53,201:publish_results:DEBUG:Write successful
+2019-07-31 04:16:51,261:main:DEBUG:starting program
+2019-07-31 04:16:51,261:count_image_pairs:DEBUG:counting number of rows in CSV file
+2019-07-31 04:16:51,262:write_header:DEBUG:wrote result header
+2019-07-31 04:16:51,262:read_data:DEBUG:starting to read data
+2019-07-31 04:16:51,262:read_data:DEBUG:opened data file
+2019-07-31 04:16:51,262:read_data:DEBUG:[['D:\\Programming\\test\\Loblaws_Digital\\images\\original_golden_bridge.jpg', 'D:\\Programming\\test\\Loblaws_Digital\\images\\black_and_white.jpg']]
+2019-07-31 04:16:51,332:read_images:DEBUG:Read images
+2019-07-31 04:16:51,332:check_identical:DEBUG:Images have the same size and channel
+2019-07-31 04:16:51,341:check_identical:DEBUG:The images are NOT completely Equal
+2019-07-31 04:16:51,342:main:DEBUG:images NOT EQUAL - starting SIFT
+2019-07-31 04:16:52,360:generate_keypoints:DEBUG:Generated keypoints for both images
+2019-07-31 04:16:54,647:compare_images:DEBUG:found common points in images
+2019-07-31 04:16:54,647:main:DEBUG:filtering results now...
+2019-07-31 04:16:54,647:filter_results:DEBUG:Matches:6699
+2019-07-31 04:16:54,647:filter_results:DEBUG:Good Matches: 4630
+2019-07-31 04:16:54,647:main:DEBUG:generating a score...
+2019-07-31 04:16:54,647:publish_results:DEBUG:writing to CSV file...
+2019-07-31 04:16:54,647:publish_results:DEBUG:Write successful
+2019-07-31 04:16:54,647:read_data:DEBUG:starting to read data
+2019-07-31 04:16:54,647:read_data:DEBUG:opened data file
+2019-07-31 04:16:54,647:read_data:DEBUG:[['D:\\Programming\\test\\Loblaws_Digital\\images\\original_golden_bridge.jpg', 'D:\\Programming\\test\\Loblaws_Digital\\images\\blue_filter.jpg']]
+2019-07-31 04:16:54,734:read_images:DEBUG:Read images
+2019-07-31 04:16:54,735:check_identical:DEBUG:Images have the same size and channel
+2019-07-31 04:16:54,744:check_identical:DEBUG:The images are NOT completely Equal
+2019-07-31 04:16:54,745:main:DEBUG:images NOT EQUAL - starting SIFT
+2019-07-31 04:16:55,778:generate_keypoints:DEBUG:Generated keypoints for both images
+2019-07-31 04:16:57,971:compare_images:DEBUG:found common points in images
+2019-07-31 04:16:57,972:main:DEBUG:filtering results now...
+2019-07-31 04:16:57,972:filter_results:DEBUG:Matches:6699
+2019-07-31 04:16:57,973:filter_results:DEBUG:Good Matches: 5819
+2019-07-31 04:16:57,973:main:DEBUG:generating a score...
+2019-07-31 04:16:57,973:publish_results:DEBUG:writing to CSV file...
+2019-07-31 04:16:57,973:publish_results:DEBUG:Write successful
+2019-07-31 04:16:57,973:read_data:DEBUG:starting to read data
+2019-07-31 04:16:57,974:read_data:DEBUG:opened data file
+2019-07-31 04:16:57,974:read_data:DEBUG:[['D:\\Programming\\test\\Loblaws_Digital\\images\\original_golden_bridge.jpg', 'D:\\Programming\\test\\Loblaws_Digital\\images\\blurred.jpg']]
+2019-07-31 04:16:58,042:read_images:DEBUG:Read images
+2019-07-31 04:16:58,043:check_identical:DEBUG:Images have the same size and channel
+2019-07-31 04:16:58,052:check_identical:DEBUG:The images are NOT completely Equal
+2019-07-31 04:16:58,053:main:DEBUG:images NOT EQUAL - starting SIFT
+2019-07-31 04:16:58,987:generate_keypoints:DEBUG:Generated keypoints for both images
+2019-07-31 04:16:59,328:compare_images:DEBUG:found common points in images
+2019-07-31 04:16:59,328:main:DEBUG:filtering results now...
+2019-07-31 04:16:59,328:filter_results:DEBUG:Matches:6699
+2019-07-31 04:16:59,336:filter_results:DEBUG:Good Matches: 372
+2019-07-31 04:16:59,336:main:DEBUG:generating a score...
+2019-07-31 04:16:59,336:publish_results:DEBUG:writing to CSV file...
+2019-07-31 04:16:59,336:publish_results:DEBUG:Write successful
+2019-07-31 04:16:59,336:read_data:DEBUG:starting to read data
+2019-07-31 04:16:59,336:read_data:DEBUG:opened data file
+2019-07-31 04:16:59,336:read_data:DEBUG:[['D:\\Programming\\test\\Loblaws_Digital\\images\\original_golden_bridge.jpg', 'D:\\Programming\\test\\Loblaws_Digital\\images\\cartoonized.jpg']]
+2019-07-31 04:16:59,417:read_images:DEBUG:Read images
+2019-07-31 04:16:59,417:check_identical:DEBUG:Images have the same size and channel
+2019-07-31 04:16:59,419:check_identical:DEBUG:The images are NOT completely Equal
+2019-07-31 04:16:59,427:main:DEBUG:images NOT EQUAL - starting SIFT
+2019-07-31 04:17:00,419:generate_keypoints:DEBUG:Generated keypoints for both images
+2019-07-31 04:17:02,373:compare_images:DEBUG:found common points in images
+2019-07-31 04:17:02,373:main:DEBUG:filtering results now...
+2019-07-31 04:17:02,373:filter_results:DEBUG:Matches:6699
+2019-07-31 04:17:02,381:filter_results:DEBUG:Good Matches: 2668
+2019-07-31 04:17:02,381:main:DEBUG:generating a score...
+2019-07-31 04:17:02,381:publish_results:DEBUG:writing to CSV file...
+2019-07-31 04:17:02,381:publish_results:DEBUG:Write successful
+2019-07-31 04:17:02,381:read_data:DEBUG:starting to read data
+2019-07-31 04:17:02,381:read_data:DEBUG:opened data file
+2019-07-31 04:17:02,381:read_data:DEBUG:[['D:\\Programming\\test\\Loblaws_Digital\\images\\original_golden_bridge.jpg', 'D:\\Programming\\test\\Loblaws_Digital\\images\\exposured.jpg']]
+2019-07-31 04:17:02,462:read_images:DEBUG:Read images
+2019-07-31 04:17:02,464:check_identical:DEBUG:Images have the same size and channel
+2019-07-31 04:17:02,472:check_identical:DEBUG:The images are NOT completely Equal
+2019-07-31 04:17:02,474:main:DEBUG:images NOT EQUAL - starting SIFT
+2019-07-31 04:17:03,456:generate_keypoints:DEBUG:Generated keypoints for both images
+2019-07-31 04:17:05,150:compare_images:DEBUG:found common points in images
+2019-07-31 04:17:05,151:main:DEBUG:filtering results now...
+2019-07-31 04:17:05,151:filter_results:DEBUG:Matches:6699
+2019-07-31 04:17:05,152:filter_results:DEBUG:Good Matches: 1767
+2019-07-31 04:17:05,152:main:DEBUG:generating a score...
+2019-07-31 04:17:05,152:publish_results:DEBUG:writing to CSV file...
+2019-07-31 04:17:05,152:publish_results:DEBUG:Write successful
+2019-07-31 04:17:05,152:read_data:DEBUG:starting to read data
+2019-07-31 04:17:05,153:read_data:DEBUG:opened data file
+2019-07-31 04:17:05,153:read_data:DEBUG:[['D:\\Programming\\test\\Loblaws_Digital\\images\\original_golden_bridge.jpg', 'D:\\Programming\\test\\Loblaws_Digital\\images\\george-washington-bridge.jpg']]
+2019-07-31 04:17:05,224:read_images:DEBUG:Read images
+2019-07-31 04:17:05,226:main:DEBUG:images NOT EQUAL - starting SIFT
+2019-07-31 04:17:06,402:generate_keypoints:DEBUG:Generated keypoints for both images
+2019-07-31 04:17:11,172:compare_images:DEBUG:found common points in images
+2019-07-31 04:17:11,172:main:DEBUG:filtering results now...
+2019-07-31 04:17:11,172:filter_results:DEBUG:Matches:6699
+2019-07-31 04:17:11,172:filter_results:DEBUG:Good Matches: 0
+2019-07-31 04:17:11,172:main:DEBUG:generating a score...
+2019-07-31 04:17:11,172:publish_results:DEBUG:writing to CSV file...
+2019-07-31 04:17:11,172:publish_results:DEBUG:Write successful
+2019-07-31 04:17:11,172:read_data:DEBUG:starting to read data
+2019-07-31 04:17:11,172:read_data:DEBUG:opened data file
+2019-07-31 04:17:11,172:read_data:DEBUG:[['D:\\Programming\\test\\Loblaws_Digital\\images\\original_golden_bridge.jpg', 'D:\\Programming\\test\\Loblaws_Digital\\images\\old_photo.jpg']]
+2019-07-31 04:17:11,257:read_images:DEBUG:Read images
+2019-07-31 04:17:11,257:check_identical:DEBUG:Images have the same size and channel
+2019-07-31 04:17:11,272:check_identical:DEBUG:The images are NOT completely Equal
+2019-07-31 04:17:11,272:main:DEBUG:images NOT EQUAL - starting SIFT
+2019-07-31 04:17:12,311:generate_keypoints:DEBUG:Generated keypoints for both images
+2019-07-31 04:17:15,126:compare_images:DEBUG:found common points in images
+2019-07-31 04:17:15,126:main:DEBUG:filtering results now...
+2019-07-31 04:17:15,126:filter_results:DEBUG:Matches:6699
+2019-07-31 04:17:15,127:filter_results:DEBUG:Good Matches: 2428
+2019-07-31 04:17:15,127:main:DEBUG:generating a score...
+2019-07-31 04:17:15,127:publish_results:DEBUG:writing to CSV file...
+2019-07-31 04:17:15,127:publish_results:DEBUG:Write successful
+2019-07-31 04:17:15,127:read_data:DEBUG:starting to read data
+2019-07-31 04:17:15,128:read_data:DEBUG:opened data file
+2019-07-31 04:17:15,128:read_data:DEBUG:[['D:\\Programming\\test\\Loblaws_Digital\\images\\original_golden_bridge.jpg', 'D:\\Programming\\test\\Loblaws_Digital\\images\\original_golden_bridge.jpg']]
+2019-07-31 04:17:15,195:read_images:DEBUG:Read images
+2019-07-31 04:17:15,196:check_identical:DEBUG:Images have the same size and channel
+2019-07-31 04:17:15,205:publish_results:DEBUG:writing to CSV file...
+2019-07-31 04:17:15,205:publish_results:DEBUG:Write successful
+2019-07-31 04:17:15,205:check_identical:DEBUG:The images are completely Equal
+2019-07-31 04:17:15,205:read_data:DEBUG:starting to read data
+2019-07-31 04:17:15,205:read_data:DEBUG:opened data file
+2019-07-31 04:17:15,205:read_data:DEBUG:[['D:\\Programming\\test\\Loblaws_Digital\\images\\original_golden_bridge.jpg', 'D:\\Programming\\test\\Loblaws_Digital\\images\\overlay.jpg']]
+2019-07-31 04:17:15,276:read_images:DEBUG:Read images
+2019-07-31 04:17:15,276:check_identical:DEBUG:Images have the same size and channel
+2019-07-31 04:17:15,276:check_identical:DEBUG:The images are NOT completely Equal
+2019-07-31 04:17:15,292:main:DEBUG:images NOT EQUAL - starting SIFT
+2019-07-31 04:17:16,262:generate_keypoints:DEBUG:Generated keypoints for both images
+2019-07-31 04:17:17,131:compare_images:DEBUG:found common points in images
+2019-07-31 04:17:17,131:main:DEBUG:filtering results now...
+2019-07-31 04:17:17,131:filter_results:DEBUG:Matches:6699
+2019-07-31 04:17:17,132:filter_results:DEBUG:Good Matches: 1175
+2019-07-31 04:17:17,132:main:DEBUG:generating a score...
+2019-07-31 04:17:17,132:publish_results:DEBUG:writing to CSV file...
+2019-07-31 04:17:17,132:publish_results:DEBUG:Write successful
+2019-07-31 04:17:17,132:read_data:DEBUG:starting to read data
+2019-07-31 04:17:17,133:read_data:DEBUG:opened data file
+2019-07-31 04:17:17,133:read_data:DEBUG:[['D:\\Programming\\test\\Loblaws_Digital\\images\\original_golden_bridge.jpg', 'D:\\Programming\\test\\Loblaws_Digital\\images\\resized.jpg']]
+2019-07-31 04:17:17,173:read_images:DEBUG:Read images
+2019-07-31 04:17:17,173:main:DEBUG:images NOT EQUAL - starting SIFT
+2019-07-31 04:17:17,754:generate_keypoints:DEBUG:Generated keypoints for both images
+2019-07-31 04:17:18,248:compare_images:DEBUG:found common points in images
+2019-07-31 04:17:18,248:main:DEBUG:filtering results now...
+2019-07-31 04:17:18,248:filter_results:DEBUG:Matches:6699
+2019-07-31 04:17:18,249:filter_results:DEBUG:Good Matches: 619
+2019-07-31 04:17:18,249:main:DEBUG:generating a score...
+2019-07-31 04:17:18,249:publish_results:DEBUG:writing to CSV file...
+2019-07-31 04:17:18,249:publish_results:DEBUG:Write successful
+2019-07-31 04:17:18,249:read_data:DEBUG:starting to read data
+2019-07-31 04:17:18,250:read_data:DEBUG:opened data file
+2019-07-31 04:17:18,250:read_data:DEBUG:[['D:\\Programming\\test\\Loblaws_Digital\\images\\original_golden_bridge.jpg', 'D:\\Programming\\test\\Loblaws_Digital\\images\\rotated.jpg']]
+2019-07-31 04:17:18,330:read_images:DEBUG:Read images
+2019-07-31 04:17:18,330:main:DEBUG:images NOT EQUAL - starting SIFT
+2019-07-31 04:17:19,381:generate_keypoints:DEBUG:Generated keypoints for both images
+2019-07-31 04:17:21,674:compare_images:DEBUG:found common points in images
+2019-07-31 04:17:21,674:main:DEBUG:filtering results now...
+2019-07-31 04:17:21,674:filter_results:DEBUG:Matches:6699
+2019-07-31 04:17:21,674:filter_results:DEBUG:Good Matches: 5690
+2019-07-31 04:17:21,674:main:DEBUG:generating a score...
+2019-07-31 04:17:21,674:publish_results:DEBUG:writing to CSV file...
+2019-07-31 04:17:21,674:publish_results:DEBUG:Write successful
+2019-07-31 04:17:21,674:read_data:DEBUG:starting to read data
+2019-07-31 04:17:21,674:read_data:DEBUG:opened data file
+2019-07-31 04:17:21,674:read_data:DEBUG:[['D:\\Programming\\test\\Loblaws_Digital\\images\\original_golden_bridge.jpg', 'D:\\Programming\\test\\Loblaws_Digital\\images\\sharpened.jpg']]
+2019-07-31 04:17:21,776:read_images:DEBUG:Read images
+2019-07-31 04:17:21,777:check_identical:DEBUG:Images have the same size and channel
+2019-07-31 04:17:21,786:check_identical:DEBUG:The images are NOT completely Equal
+2019-07-31 04:17:21,787:main:DEBUG:images NOT EQUAL - starting SIFT
+2019-07-31 04:17:22,854:generate_keypoints:DEBUG:Generated keypoints for both images
+2019-07-31 04:17:26,484:compare_images:DEBUG:found common points in images
+2019-07-31 04:17:26,484:main:DEBUG:filtering results now...
+2019-07-31 04:17:26,484:filter_results:DEBUG:Matches:6699
+2019-07-31 04:17:26,486:filter_results:DEBUG:Good Matches: 3200
+2019-07-31 04:17:26,486:main:DEBUG:generating a score...
+2019-07-31 04:17:26,486:publish_results:DEBUG:writing to CSV file...
+2019-07-31 04:17:26,486:publish_results:DEBUG:Write successful
+2019-07-31 04:17:26,486:read_data:DEBUG:starting to read data
+2019-07-31 04:17:26,486:read_data:DEBUG:opened data file
+2019-07-31 04:17:26,486:read_data:DEBUG:[['D:\\Programming\\test\\Loblaws_Digital\\images\\original_golden_bridge.jpg', 'D:\\Programming\\test\\Loblaws_Digital\\images\\sunburst.jpg']]
+2019-07-31 04:17:26,577:read_images:DEBUG:Read images
+2019-07-31 04:17:26,577:check_identical:DEBUG:Images have the same size and channel
+2019-07-31 04:17:26,587:check_identical:DEBUG:The images are NOT completely Equal
+2019-07-31 04:17:26,587:main:DEBUG:images NOT EQUAL - starting SIFT
+2019-07-31 04:17:27,781:generate_keypoints:DEBUG:Generated keypoints for both images
+2019-07-31 04:17:35,198:compare_images:DEBUG:found common points in images
+2019-07-31 04:17:35,198:main:DEBUG:filtering results now...
+2019-07-31 04:17:35,198:filter_results:DEBUG:Matches:6699
+2019-07-31 04:17:35,198:filter_results:DEBUG:Good Matches: 518
+2019-07-31 04:17:35,198:main:DEBUG:generating a score...
+2019-07-31 04:17:35,198:publish_results:DEBUG:writing to CSV file...
+2019-07-31 04:17:35,198:publish_results:DEBUG:Write successful
+2019-07-31 04:17:35,198:read_data:DEBUG:starting to read data
+2019-07-31 04:17:35,198:read_data:DEBUG:opened data file
+2019-07-31 04:17:35,198:read_data:DEBUG:[['D:\\Programming\\test\\Loblaws_Digital\\images\\original_golden_bridge.jpg', 'D:\\Programming\\test\\Loblaws_Digital\\images\\textured.jpg']]
+2019-07-31 04:17:35,279:read_images:DEBUG:Read images
+2019-07-31 04:17:35,279:check_identical:DEBUG:Images have the same size and channel
+2019-07-31 04:17:35,289:check_identical:DEBUG:The images are NOT completely Equal
+2019-07-31 04:17:35,289:main:DEBUG:images NOT EQUAL - starting SIFT
+2019-07-31 04:17:36,363:generate_keypoints:DEBUG:Generated keypoints for both images
+2019-07-31 04:17:39,760:compare_images:DEBUG:found common points in images
+2019-07-31 04:17:39,760:main:DEBUG:filtering results now...
+2019-07-31 04:17:39,760:filter_results:DEBUG:Matches:6699
+2019-07-31 04:17:39,761:filter_results:DEBUG:Good Matches: 3389
+2019-07-31 04:17:39,761:main:DEBUG:generating a score...
+2019-07-31 04:17:39,761:publish_results:DEBUG:writing to CSV file...
+2019-07-31 04:17:39,761:publish_results:DEBUG:Write successful
